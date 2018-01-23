@@ -9,4 +9,4 @@ module.exports = (robot, scripts) ->
         if scripts? and '*' not in scripts
           robot.loadFile(scriptsPath, script) if script in scripts
         else
-robot.loadFile(scriptsPath, script)
+          robot.loadFile(scriptsPath, script)
