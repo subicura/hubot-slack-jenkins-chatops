@@ -1,6 +1,6 @@
 {
   "name": "hubot-slack-jenkins-chatops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "subicura <subicura@subicura.com>",
   "description": "A slack jenkins robot for chatops",
   "license": "MIT",
