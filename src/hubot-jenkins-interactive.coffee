@@ -10,7 +10,7 @@
 #   URL should be in the "http://user:pass@localhost:8080" format.
 #
 # Commands:
-#   hubot j(enkins) build - lists Jenkins jobs for build
+#   hubot j(enkins) build - lists Jenkins jobs to build
 #   hubot j(enkins) build <job name> - Build jenkins job
 #
 # Author:

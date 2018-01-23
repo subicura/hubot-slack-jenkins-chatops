@@ -28,7 +28,7 @@ You need to create your own slack app. (Slack's hubot plugin is not support inte
 
 ![create slack app](./screenshot/create-slack-app.png)
 
-Enable interactive components and add request url. You need to change request url to point to your host
+Enable interactive components and add request url. You need to change request url to point to your host.
 
 ![enable interactive component](./screenshot/slack-interactive-component.png)
 
@@ -65,7 +65,11 @@ The following environment variables define the colors used for each build status
 
 ## Commands
 
-This plugin currently offers no commands.
+- `hubot j(enkins) build`
+  - Lists Jenkins jobs to build 
+- `hubot j(enkins) build <job name>`
+  - Build jenkins job 
+
 
 ## Reference
 
