@@ -28,7 +28,7 @@ You need to create your own slack app. (Slack's hubot plugin is not support inte
 
 ![create slack app](./screenshot/create-slack-app.png)
 
-Enable interactive components and add request url. You need to change request url to point to your host.
+Enable interactive components and add `Request URL`. You need to change request url to point to your host.
 
 ![enable interactive component](./screenshot/slack-interactive-component.png)
 
@@ -51,7 +51,7 @@ In case you want to see the message received and the attachment sent, you can al
 ### Environment variables
 
 - `HUBOT_SLACK_VERIFICATION_TOKEN`: Visit your app basic information page and check app credentials.
-- `HUBOT_JENKINS_URL`: http://user:password@jenkins-host
+- `HUBOT_JENKINS_URL`: http://user:password@jenkins-host or http://user:token@jenkins-host (ex: http://admin:secret@localhost:8080)
 
 
 The following environment variables define the colors used for each build status:
