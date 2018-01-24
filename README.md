@@ -28,7 +28,7 @@ You need to create your own slack app. (Slack's hubot plugin is not support inte
 
 ![create slack app](./screenshot/create-slack-app.png)
 
-Enable interactive components and add `Request URL`. You need to change request url to point to your host.
+Enable interactive components and add `Request URL`(Request URL SSL certificate requirements). You need to change request url to point to your host. Detail info [here](https://api.slack.com/interactive-messages).
 
 ![enable interactive component](./screenshot/slack-interactive-component.png)
 
