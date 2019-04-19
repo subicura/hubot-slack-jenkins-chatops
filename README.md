@@ -20,7 +20,7 @@ Then add `hubot-slack-jenkins-chatops` to your `external-scripts.json`:
 ]
 ```
 
-## Coniguration
+## Configuration
 
 ### Slack
 
